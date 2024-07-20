@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 //import reviews from "../data";
 import { FaQuoteRight, FaQuoteLeft } from "react-icons/fa";
 
@@ -6,6 +6,14 @@ import { FaQuoteRight, FaQuoteLeft } from "react-icons/fa";
 
 const Card = (props) => {
     let reviews = props.reviews;
+
+    const [readmore, setReadmore] = useState(false);
+    function readmoreHandler(){
+        setReadmore(!readmore);
+    }
+
+
+    const descText = readmore ? reviews.text : `${reviews.text.substring(0,150)}....`
     return (
         <div className="flex flex-col relative  m-8">
             <div className='absolute left-[50%] translate-x-[-50%] top-[-120px] z-[10] mx-auto md:left-16'>
@@ -23,19 +31,18 @@ const Card = (props) => {
             </div>
 
 
-            <div className="text-violet-400 mx-auto">
+            <div className="text-violet-400 mx-auto pt-2">
                 <FaQuoteLeft />
             </div>
 
-            <div className="font-semibold text-center mt-4 text-slate-500">
-                {
-                    reviews.text.length >220 ?
-                    (reviews.text.substr(0,220) + "..."):
-                    ( reviews.text)
-                }
+            <div className="font-semibold text-center mt-2 text-slate-500">
+                {descText}
+                    <span className="read-more cursor-pointer  text-violet-300" onClick={readmoreHandler}>
+                        {readmore? `Show less`: `Read More`}
+                    </span>
             </div>
 
-            <div className="text-violet-400 mx-auto mt-5">
+            <div className="text-violet-400 mx-auto mt-2">
                 <FaQuoteRight />
             </div>
 
