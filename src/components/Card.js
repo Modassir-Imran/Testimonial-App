@@ -22,11 +22,8 @@ const Card = (props) => {
 
             </div>
 
-            <div className="text-center mt-7">
-            </div>
 
-
-            <div className="text-violet-400 mx-auto mt-5">
+            <div className="text-violet-400 mx-auto">
                 <FaQuoteLeft />
             </div>
 
