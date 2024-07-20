@@ -1,12 +1,12 @@
 
 const reviews = [
-    {
-      id: 1,
-      name: "MOHAMMAD ARIF",
-      job: "Student at CHANDIGARH UNIVERSITY",
-      image: "https://media.licdn.com/dms/image/D4D35AQGRJSd9LP34jw/profile-framedphoto-shrink_800_800/0/1692970085572?e=1722085200&v=beta&t=ng-jJidZaYJWmkV3XzlUQ_maxsHzNC93dexrlhwUTVQ",
-      text: "Working with this team was a pleasure. Their technical expertise and ability to deliver quality solutions on time and within budget were impressive. I highly recommend them as a true partner and asset to any project.",
-    },
+  {
+    id: 7,
+    name: "Modassir Imran",
+    job: "Fullsack Developer",
+    image: "https://avatars.githubusercontent.com/u/96190246?s=400&u=91c66393bfee3c9f9acbfda15cfd7ce159a318aa&v=4",
+    text: "I am an inquisitive, focused, and diligent developer with a passion for creating innovative frontend applications that enhance organizational efficiency and success. With a strong foundation in HTML, CSS/SCSS, JavaScript, React.js/Redux,Tialwind, C++, Java ,data structures, algorithms, and problem-solving, I am skilled in leadership and teamwork. I am seeking an entry-level software-oriented position where my technical skills can be effectively applied to solve real-world problems."
+  },
     {
       id: 2,
       name: "Arif Khan",
@@ -42,14 +42,12 @@ const reviews = [
       image: "https://media.licdn.com/dms/image/D4D03AQHol2oPJBJ00A/profile-displayphoto-shrink_400_400/0/1691932783672?e=1726704000&v=beta&t=EGXkVrEfje7NEVj5y6CGHTbPP8-s0ruLZrafzCSwLwQ",
       text: "I had the opportunity to work with this team on a data analysis project, and I was impressed with their attention to detail and their ability to work with complex datasets. They provided valuable insights that helped us make informed business decisions. It was a pleasure working with them.",
     },
-    
-
     {
-        id: 7,
-        name: "Modassir Imran",
-        job: "Fullsack Developer",
-        image: "https://avatars.githubusercontent.com/u/96190246?s=400&u=91c66393bfee3c9f9acbfda15cfd7ce159a318aa&v=4",
-        text: "I am an inquisitive, focused, and diligent developer with a passion for creating innovative frontend applications that enhance organizational efficiency and success. With a strong foundation in HTML, CSS/SCSS, JavaScript, React.js/Redux,Tialwind, C++, Java ,data structures, algorithms, and problem-solving, I am skilled in leadership and teamwork. I am seeking an entry-level software-oriented position where my technical skills can be effectively applied to solve real-world problems."
+      id: 7,
+      name: "MOHAMMAD ARIF",
+      job: "Student at CHANDIGARH UNIVERSITY",
+      image: "https://media.licdn.com/dms/image/D4D35AQGRJSd9LP34jw/profile-framedphoto-shrink_800_800/0/1692970085572?e=1722085200&v=beta&t=ng-jJidZaYJWmkV3XzlUQ_maxsHzNC93dexrlhwUTVQ",
+      text: "Working with this team was a pleasure. Their technical expertise and ability to deliver quality solutions on time and within budget were impressive. I highly recommend them as a true partner and asset to any project.",
     },
     {
         id: 8,

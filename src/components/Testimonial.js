@@ -30,8 +30,8 @@ const Testimonial = (props) => {
         setIndex (randomIndex);
     }
     return(
-        <div className=" w-[85vw] md:w-[700px] bg-white flex flex-col justify-center 
-            mt-10 p-19 transition-all duration-700 hover:shadow-xl rounded-md">
+        <div className="w-[85vw] md:w-[700px]  bg-white flex flex-col justify-center 
+            mt-40 lg:mt-10 p-19 transition-all duration-700 hover:shadow-xl rounded-md">
             <Card reviews = {reviews[index]} />
 
             <div className="flex text-3xl mt-1 gap-3 text-violet-400 font-bold mx-auto ">

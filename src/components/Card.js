@@ -7,8 +7,8 @@ import { FaQuoteRight, FaQuoteLeft } from "react-icons/fa";
 const Card = (props) => {
     let reviews = props.reviews;
     return (
-        <div className="flex flex-col md:relative  m-8">
-            <div className='absolute top-[-6rem] z-[10] mx-auto'>
+        <div className="flex flex-col relative  m-8">
+            <div className='absolute left-[50%] translate-x-[-50%] top-[-120px] z-[10] mx-auto md:left-16'>
                 <img 
                 className="aspect-square rounded-full w-[140px] h-[140px] z-[25]"
                 src={reviews.image} alt="mode"/>
